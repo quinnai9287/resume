@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatDate(date: string) {
-  noStore();
+  // noStore();
   let currentDate = new Date().getTime();
   if (!date.includes("T")) {
     date = `${date}T00:00:00`;

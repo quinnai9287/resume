@@ -1,9 +1,26 @@
+import fs from 'fs';
+import path from 'path';
 import { getPost } from "@/data/blog";
 import { DATA } from "@/data/resume";
 import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+
+export async function generateStaticParams() {
+  const blogsDirectory = path.join(process.cwd(), 'content'); 
+  const filenames = fs.readdirSync(blogsDirectory);
+
+  const r = filenames.map((filename) => ({
+    slug: filename.replace(/\.mdx$/, ''),
+  }));
+
+  console.log('R', r);
+
+  return filenames.map((filename) => ({
+    slug: filename.replace(/\.mdx$/, ''),
+  }));
+}
 
 export async function generateMetadata({
   params,
@@ -45,6 +62,8 @@ export async function generateMetadata({
     },
   };
 }
+
+export const revalidate = 60; 
 
 export default async function Blog({
   params,
