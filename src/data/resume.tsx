@@ -37,15 +37,15 @@ export const DATA = {
   work: [
     {
       company: "Freelancing",
-      href: "https://quinnai9287.io",
+      href: "https://quinnai9287.github.io",
       badges: [],
+      logoUrl: "",
       location: "Remote",
       title: "Front-end Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2022",
-      end: "Sep 2023",
+      start: "Sep 2023",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        ["Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript."]
     },
     {
       company: "DMKTZ",
@@ -53,43 +53,43 @@ export const DATA = {
       badges: [],
       location: "Taipei, Taiwan",
       title: "Front-end Engineer",
-      logoUrl: "/atomic.png",
+      logoUrl: "/dmktz.png",
       start: "May 2022",
       end: "Sep 2023",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        ["Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript."]
     },
     {
       company: "Freelancing",
-      href: "https://quinnai9287.io",
+      href: "https://quinnai9287.github.io",
       badges: [],
+      logoUrl: "",
       location: "Remote",
       title: "Front-end Engineer",
-      logoUrl: "/shopify.svg",
       start: "January 2020",
       end: "May 2022",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        ["Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes."]
     },
     {
       company: "Albertlan Creative",
-      href: "https://",
+      href: "https://albertlan.com/",
       badges: [],
       location: "Taipei, Taiwan",
-      title: "Front-end Designer",
-      logoUrl: "/nvidia.png",
+      title: "Front-end Developer",
+      logoUrl: "/albertlancreative.png",
       start: "Aug 2016",
       end: "Nov 2019",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        ["Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python."]
     },
   ],
   education: [
     {
       school: "Yuan Ze University",
       href: "https://www.yzu.edu.tw/index.php/tw/",
-      degree: "Bachelor of Information and Communication",
-      logoUrl: "/buildspace.jpg",
+      degree: ["Bachelor of Information and Communication"],
+      logoUrl: "/yzu.png",
       start: "2009",
       end: "2013",
     },
