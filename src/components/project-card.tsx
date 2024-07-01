@@ -20,6 +20,7 @@ interface Props {
   link?: string;
   image?: string;
   video?: string;
+  roles?: readonly string[];
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -37,18 +38,19 @@ export function ProjectCard({
   link,
   image,
   video,
+  roles,
   links,
   className,
 }: Props) {
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full user-select-none"
       }
     >
       <Link
-        href={href || "#"}
-        className={cn("block cursor-pointer", className)}
+        href={href || "javsacript:void(0)"}
+        className={cn("block cursor-pointer", className, !href && "pointer-events-none cursor-auto")}
       >
         {video && (
           <video
@@ -57,14 +59,16 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            className="pointer-events-none mx-auto h-44 w-full object-cover object-top" // needed because random black line at bottom of video
           />
         )}
         {image && (
           <Image
             src={image}
             alt={title}
-            className="h-40 w-full overflow-hidden object-cover object-top"
+            className="h-44 w-full overflow-hidden object-cover object-top"
+            width={500}
+            height={400}
           />
         )}
       </Link>

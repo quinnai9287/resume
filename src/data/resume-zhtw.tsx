@@ -7,9 +7,9 @@ export const DATA = {
   location: "台北, 台灣",
   locationLink: "https://www.google.com/maps/place/taipei",
   description:
-    "現役前端工程師，前平面/UI設計師。喜歡眼睛看了很舒服的網頁視覺，喜歡瀏覽起來很順暢的使用體驗。",
+    "現役前端工程師，前平面/UI設計師。我喜於將設計美學融入使用者友好的界面，致力於創建令人愉悅且功能強大的網站和應用程式。我熱衷於探索新技術，並不斷提升自己在技術和設計領域的能力。",
   summary:
-    "2023 年九月辭去上一份正職工作工作後，一邊持續接案，一邊增強自己的軟實力，持續培養美感、學習服裝設計。2024 年後開始重點精進英文能力，仍一邊接案並開啟海外數位遊牧行程，在全外語環境獨自旅行。目前持續接案、開發自己的 SaaS 服務，並持續學習新技術中。\n\n 非常喜歡開發很美、富有創意互動設計的設計稿，如果你也是追求精緻視覺的設計師，請不吝與我合作，謝謝！🥰",
+    "2023 年九月辭去上一份正職工作工作後，一邊持續[接案](#projects)，一邊增強自己的軟實力，持續培養美感、學習服裝設計。2024 年後開始重點精進英文能力，仍一邊接案並開啟海外數位遊牧行程，在全外語環境獨自旅行。目前持續接案、[開發自己的 SaaS 服務](#side-projects)，並持續學習新技術中。\n\n 非常喜歡開發很美、富有創意互動設計的設計稿，如果你也是追求精緻視覺的設計師，請不吝與我合作，謝謝！🥰",
   avatarUrl: "/me2.jpg",
   skills: [
     "Vue.js",
@@ -38,7 +38,7 @@ export const DATA = {
     {
       company: "自由接案",
       href: "https://quinnai9287.github.io",
-      badges: ['Vue3/Nuxt','WebSocket', 'Svelte', 'React', 'React-Native', 'TypeScript', 'Swagger/OpenAPI'],
+      badges: ['Vue3/Nuxt','WebSocket', 'Svelte', 'React/Next', 'React-Native', 'TypeScript', 'Swagger/OpenAPI', 'ci/cd', 'Firebase', 'Markdown'],
       location: "Remote",
       logoUrl: "",
       title: "Front-end Engineer",
@@ -46,6 +46,7 @@ export const DATA = {
       end: "Present",
       description:
         [
+          "開發自己的[個人服務網站以及 Side Projects](#side-projects)。",
           "參與電商平台擴充功能之前端開發。work w/ [MAAC 漸強實驗室](https://maac.cresclab.com/)",
           "接手負責 [TeamSync 多人 AI 聊天室](https://teamsync.com.tw/) 前端開發。work w/ [數辰 AI 創藝科技](https://shuchenai.wordpress.com/)",
           "參與 [Swise 虛擬辦公空間](https://swise.tw/) 部分前端介面/功能開發。work w/ [Alion Tech](https://alion.tw/).",
@@ -55,7 +56,7 @@ export const DATA = {
     {
       company: "DMKTZ",
       href: "https://dmktz.io",
-      badges: ['Vue3/Nuxt', 'Three.js', 'Web3', 'ether.js', 'MetaMask'],
+      badges: ['Vue3/Nuxt', 'Three.js', 'Web3', 'Ether.js', 'MetaMask', 'Stripe'],
       location: "Taipei, Taiwan",
       title: "Front-end Engineer",
       logoUrl: "/dmktz.png",
@@ -66,13 +67,13 @@ export const DATA = {
           "使用 Three.js 與 Vue.js 開發數位服裝設計平台當中的，某幾項所見及所得編輯功能(e.g.身體量測數據與3D模型同步、3D模型的編輯、繪製、材質設定等)。",
           '負責 Game-Fi App [FITzOn 官方網站](https://fitzon.io) 的前端開發。著重於創建動態內容，實現複雜的動畫效果。串接智慧合約 (Smart Contract) 加密貨幣錢包 (MetaMask)，令使用者可以在官網上做 NFT 的相關操作。',
           '負責 FITzOn 官方網站 NFT Global Minting 流程的前端開發。',
-          '串接 [RPM](https://readyplayer.me/) Avatar 開發 Metaverse 3D Avatar x DMKTZ 虛擬服裝試穿功能。'
+          '串接 [RPM  Avatar](https://readyplayer.me/) 開發 Metaverse 3D Avatar x DMKTZ 虛擬服裝試穿功能。'
         ]
     },
     {
       company: "自由接案",
       href: "https://quinnai9287.github.io",
-      badges: ['Vue 2','Nuxt.js','Shopify(liquid)','Bootsrap 5'],
+      badges: ['Vue 2','Nuxt.js','Shopify(liquid)','Bootsrap 5', 'GraphQL'],
       logoUrl: "",
       location: "Remote",
       title: "Front-end Engineer",
@@ -113,84 +114,82 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Cybershop 賽博俠客",
-      href: "https://cybershop.com.tw",
+      title: "ST/FND. 個人遊樂場",
+      href: "https://quinnai9287.github.io",
       dates: "July 2024 - Present",
       active: false,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "個人官方網站以及 3D 視覺實驗區。不定期更新好玩有趣的視覺效果。",
       technologies: [
         "Nuxt.js",
-        "Typescript",
-        "Prisma",
+        "Three.js",
         "TailwindCSS",
-        "Stripe",
       ],
+      roles: ['UI/UX Designer', 'Front-end Developer'],
       links: [
         {
           type: "Website",
-          href: "https://cybershop.com.tw",
+          href: "https://quinnai9287.github.io",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Oceanica 潛水孤兒",
-      href: "https://pieces.io",
-      dates: "July 2024 - Present",
-      active: false,
-      description:
-        "Start to plan your diving trip with Oceanica!",
-      technologies: [
-        "Nuxt.js",
-        "Typescript",
-        "TailwindCSS"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+        "/video/stfnd.mp4",
     },
     {
       title: "Pieces 摺摺",
-      href: "https://pieces.io",
+      href: "",
       dates: "Nov 2023 - Present",
       active: false,
       description:
-        "Make making clothes easier. Pieces is a web application that allows you to create clothing patterns and print them out easily.",
+        "讓實體服裝製作變得更簡單！Pieces 是個讓服裝設計師打完板後可以方便、快速開始製作自己的服裝的應用。",
       technologies: [
         "Nuxt.js",
         "Typescript",
-        "TailwindCSS"
+        "TailwindCSS",
+        "Canvas"
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      roles: ['UI/UX Designer', 'Front-end Developer'],
+      links: [],
+      image: "/video/pieces.png",
+      video: "",
     },
+    // {
+    //   title: "Lonely Diver 潛水孤兒",
+    //   href: "https://pieces.io",
+    //   dates: "July 2024 - Present",
+    //   active: false,
+    //   description:
+    //     "最了解潛水人的潛旅規劃平台，潛水旅行吃喝玩樂一把罩！建立潛水社群，讓台灣各地的潛水孤兒們連結在一起！",
+    //   technologies: [
+    //     "Nuxt.js",
+    //     "Typescript",
+    //     "TailwindCSS"
+    //   ],
+    //   roles: ['UI/UX Designer', 'Front-end Developer'],
+    //   links: [],
+    //   image: "",
+    //   video: "https://cdn.magicui.design/bento-grid.mp4",
+    // },
+    // {
+    //   title: "Cybershop",
+    //   href: "",
+    //   dates: "July 2024 - Present",
+    //   active: false,
+    //   description:
+    //     "Cybershop 是一個輕量型的電商架設平台，提供使用者快速建立自己的電商網站。",
+    //   technologies: [
+    //     "Nuxt.js",
+    //     "TypeScript",
+    //     "TailwindCSS",
+    //   ],
+    //   roles: ['UI/UX Designer', 'Front-end Developer'],
+    //   links: [],
+    //   image: "",
+    //   video:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    // },
   ],
   hackathons: [
     {
@@ -198,7 +197,7 @@ export const DATA = {
       dates: "February 1th - March 3rd, 2024",
       location: "Taipei, Taiwan",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "負責此應用軟體前端開發，以 Svelte 框架以及 WebSocket 開發多人 AI 聊天室。",
       image:'',
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
@@ -214,7 +213,7 @@ export const DATA = {
       dates: "March 23rd - 24th, 2018",
       location: "Worldwide",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+        "參與部分前端介面、功能開發，以及維護、修改工作。",
       icon: "public",
       image:
         "/swise.png",
@@ -231,7 +230,7 @@ export const DATA = {
         dates: "Nov 2022 - Aug, 2023",
         location: "Worldwide",
         description:
-          "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+          "參與數位服裝設計平台介面、功能開發。串接元宇宙虛擬角色 Clonex, RPM x DMKTZ 3D 服裝試穿功能。",
         icon: "public",
         image:
           "/dmktz.png",
@@ -253,7 +252,7 @@ export const DATA = {
         dates: "May 2022 - Nov, 2022",
         location: "Worldwide",
         description:
-          "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+          "負責官方網站前台開發，涵蓋全部範圍。包含各式動畫、NFT 交易相關操作、APP 玩家 Dashboard。",
         icon: "public",
         image:
           "/fitzon.png",
@@ -280,7 +279,7 @@ export const DATA = {
         dates: "May 2022 - Nov, 2022",
         location: "Worldwide",
         description:
-          "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+          "參與開發數位服裝設計平台當中，某幾項所見及所得編輯功能(e.g.身體量測數據與 3D 模型同步、3D 模型的編輯、繪製、材質設定等)。",
         icon: "public",
         image:
           "/tg3d.png",
@@ -323,7 +322,7 @@ export const DATA = {
       dates: "January 20th - 21st, 2018",
       location: "台北, 台灣",
       description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
+        "參與開發官網視覺動畫，以及部分前端開發。",
       image:
         "/grassjelly.jpg",
       win: "Best Data Hack",
@@ -341,7 +340,7 @@ export const DATA = {
         dates: "August 26th - 27th, 2017",
         location: "台北, 台灣",
         description:
-          "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
+          "全權負責官方網站前端開發，以及 Shopify 商店客製化前端開發。",
         image:
           "/noparty.jpg",
         mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
@@ -363,29 +362,14 @@ export const DATA = {
       dates: "October 13th - 15th, 2017",
       location: "台北, 台灣",
       description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
+        "負責前端視覺切版。",
       image:
         "/lcy.jpeg",
       links: [
         {
-          title: "李長榮集團",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.lcygroup.com/lcygroup/tc/investor2.php",
-        },
-        {
           title: "李長榮化工",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://www.lcycic.com/zh",
-        },
-        {
-            title: "李長榮科技",
-            icon: <Icons.globe className="h-4 w-4" />,
-            href: "https://lcyt.lcycic.com/zh",
-        },
-        {
-          title: "環球橡膠",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.lcycic.com/zh/product/elastomers",
         },
       ],
     },
@@ -394,7 +378,7 @@ export const DATA = {
       dates: "September 15th - 17th, 2017",
       location: "台北, 台灣",
       description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
+        "參與電子商務平台前端開發，串接金流以及介面、功能開發。",
       image:
         "/jafun.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",

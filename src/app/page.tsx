@@ -46,7 +46,7 @@ export default function Page() {
           <h2 className="text-xl font-bold ">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert whitespace-pre">
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert whitespace-normal">
             {DATA.summary}
           </Markdown>
         </BlurFade>
@@ -113,7 +113,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="projects">
+      <section id="side-projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -122,12 +122,10 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  This is where my passion lies
                 </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                <p className="text-muted-foreground md:text-base/relaxed">
+                  Drawing inspiration from everyday experiences to come up with problem-solving methods, using my professional skills to turn these ideas into reality, is something I've always wanted to do.
                 </p>
               </div>
             </div>
@@ -154,7 +152,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="Projects">
+      <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -165,13 +163,8 @@ export default function Page() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Projects I participated in
                 </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                <p className="text-muted-foreground md:text-base/relaxed">
+                  During my time as a front-end developer, I was responsible for and participated in the creation of over {DATA.hackathons.length}+ projects. These projects spanned various fields, including corporate websites, e-commerce sites, and applications.
                 </p>
               </div>
             </div>

@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Front-end developer. Formerly a visual/UI designer. I'm passionate about creating beautiful and user-friendly interfaces.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "After leaving my full-time job in September 2023, [I continued freelancing](#projects) while enhancing my soft skills, learning fashion design, and improving my English. Since 2024, I've embraced the digital nomad lifestyle, traveling solo in English-speaking countries. \n\n Currently, I’m freelancing, developing [my own SaaS service](#side-projects), and learning new technologies. I love creating beautiful, interactive designs. If you’re a designer who values exquisite visuals, let’s collaborate! Thank you! 🥰",
   avatarUrl: "/me2.jpg",
   skills: [
     "Vue.js",
@@ -38,56 +38,75 @@ export const DATA = {
     {
       company: "Freelancing",
       href: "https://quinnai9287.github.io",
-      badges: [],
+      badges: ['Vue3/Nuxt','WebSocket', 'Svelte', 'React/Next', 'React-Native', 'TypeScript', 'Swagger/OpenAPI', 'ci/cd', 'Firebase', 'Markdown'],
       logoUrl: "",
       location: "Remote",
       title: "Front-end Engineer",
       start: "Sep 2023",
       end: "Present",
       description:
-        ["Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript."]
+      [
+        "Developing my [personal service website and side projects](#side-projects).",
+        "Contributed to the front-end development of e-commerce platform extensions. work w/ [MAAC 漸強實驗室](https://maac.cresclab.com/).",
+        "Took over front-end development for [TeamSync](https://teamsync.com.tw/), a multi-user AI chatroom. work w/ [數辰 AI 創藝科技](https://shuchenai.wordpress.com/).",
+        "Developed parts of the front-end interface and features for [Swise virtual office space](https://swise.tw/). work w/ [Alion Tech](https://alion.tw/).",
+        "Participated in front-end development for an ERP system. work w/ [Alion Tech](https://alion.tw/).",
+      ]
     },
     {
       company: "DMKTZ",
       href: "https://dmktz.io",
-      badges: [],
+      badges: ['Vue3/Nuxt', 'Three.js', 'Web3', 'Ether.js', 'MetaMask', 'Stripe'],
       location: "Taipei, Taiwan",
       title: "Front-end Engineer",
       logoUrl: "/dmktz.png",
       start: "May 2022",
       end: "Sep 2023",
       description:
-        ["Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript."]
+        [
+          "Developed Visual Editing Features: Utilized Three.js and Vue.js to create WYSIWYG (What You See Is What You Get) editing functionalities for a digital fashion design platform. This included syncing body measurement data with 3D models, and editing, drawing, and setting materials on 3D models.",
+          'Front-End Development for Game-Fi App FITzOn: Led the front-end development of the [FITzOn official website](https://fitzon.io/). Focused on creating dynamic content and implementing complex animations. Integrated smart contracts and MetaMask, enabling users to perform NFT-related operations on the site.',
+          "NFT Global Minting: Managed the front-end development for the NFT Global Minting process on the FITzOn official website.",
+          "Metaverse Integration: Connected [RPM  Avatar](https://readyplayer.me/) with the development of 3D Avatar x DMKTZ virtual clothing try-on features for the metaverse."
+        ]
     },
     {
       company: "Freelancing",
       href: "https://quinnai9287.github.io",
-      badges: [],
+      badges: ['Vue 2','Nuxt.js','Shopify(liquid)','Bootsrap 5', 'GraphQL'],
       logoUrl: "",
       location: "Remote",
       title: "Front-end Engineer",
       start: "January 2020",
       end: "May 2022",
       description:
-        ["Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes."]
+      [
+        '[Instawish Campaign Site](https://www.hospice.org.tw/content/3025): Developed the front-end for the Instawish campaign website. work w/ [Blockcode](https://www.blockcode.com.tw/), [Medialand](https://www.medialand.tw/)',
+        '[GrassJelly Studio](https://www.grassjelly.tv/#1): Contributed to implement animations for the landing page.(Webflow CMS) work w/ [Blockcode](https://www.blockcode.com.tw/), [Grassjelly TV](https://www.grassjelly.tv/#1)',
+        '[LCY Chemical Corp Website Redesign](https://www.lcygroup.com/lcygroup/tc/index.php): Handled front-end development for the redesign of the LCY Chemical Corp official website. work w/ [Kanekt Studio](https://www.kanekt.com.tw/)',
+        '[JaFun Souvenir Shopping Platform](https://www.jafun.com.tw/): Participated in the front-end development. work w/ [Alion Tech](https://alion.tw/).',
+        '[No Party for CaoDong Official](https://www.nopartyforcaodong.com/zh-hant): Managed the front-end development. work w/ [Blockcode](https://www.blockcode.com.tw/), [Whatever.co](https://whatever.co/)',
+        '[Customized Shopify Store for No Party for CaoDong](https://store.nopartyforcaodong.com/): Developed customized front-end visuals for the No Party for CaoDong Shopify store. work w/ [Blockcode](https://www.blockcode.com.tw/), [Whatever.co](https://whatever.co/)',
+        '[Cathay Century Insurance ](https://www.cathay-ins.com.tw/cathayins/personal/): Contributed to front-end development for parts of the Cathay Century Insurance website. work w/ [Doinsane Studio](https://doinsane.co/)'
+      ]
     },
     {
       company: "Albertlan Creative",
       href: "https://albertlan.com/",
-      badges: [],
+      badges: ['html, css, js', 'jQuery', 'Gulp', 'Bootstrap'],
       location: "Taipei, Taiwan",
       title: "Front-end Developer",
       logoUrl: "/albertlancreative.png",
       start: "Aug 2016",
       end: "Nov 2019",
       description:
-        ["Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python."]
+        ["I handled the front-end development for several corporate and event websites. I primarily used technologies like HTML/CSS/JS, jQuery, Gulp, and Bootstrap. My role included communicating and collaborating closely with designers to ensure the websites met both visual and functional requirements. \n\n I contributed to web development and maintenance projects for companies such as Cathay United Bank, Cathay Life Insurance, Cathay Century Insurance, ASUS, Shin Kong Life Insurance, and Jolly Brewery & Restaurant."]
     },
   ],
   education: [
     {
       school: "Yuan Ze University",
-      href: "https://www.yzu.edu.tw/index.php/tw/",
+      href: "https://www.yzu.edu.tw/index.php/en/",
       degree: ["Bachelor of Information and Communication"],
       logoUrl: "/yzu.png",
       start: "2009",
@@ -96,478 +115,279 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Cybershop 賽博俠客",
-      href: "https://cybershop.com.tw",
+      title: "ST/FND. - Personal Playground",
+      href: "https://quinnai9287.github.io",
       dates: "July 2024 - Present",
       active: false,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "My personal official website, which includes a 3D visual experimentation section. I update this area with fun and interesting visual effects irregularly.",
       technologies: [
         "Nuxt.js",
-        "Typescript",
-        "Prisma",
+        "Three.js",
         "TailwindCSS",
-        "Stripe",
       ],
+      roles: ['UI/UX Designer', 'Front-end Developer'],
       links: [
         {
           type: "Website",
-          href: "https://cybershop.com.tw",
+          href: "https://quinnai9287.github.io",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "/video/stfnd.mp4",
     },
     {
-      title: "Oceanica 潛水孤兒",
-      href: "https://pieces.io",
-      dates: "July 2024 - Present",
-      active: false,
-      description:
-        "Start to plan your diving trip with Oceanica!",
-      technologies: [
-        "Nuxt.js",
-        "Typescript",
-        "TailwindCSS"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "Pieces 摺摺",
-      href: "https://pieces.io",
+      title: "Pieces",
+      href: "",
       dates: "Nov 2023 - Present",
       active: false,
       description:
-        "Make making clothes easier. Pieces is a web application that allows you to create clothing patterns and print them out easily.",
+        "Making physical garment production simpler! Pieces is an application that allows fashion designers to easily and quickly start producing their own clothing after finishing their designs.",
       technologies: [
         "Nuxt.js",
         "Typescript",
-        "TailwindCSS"
+        "TailwindCSS",
+        "Canvas"
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      roles: ['UI/UX Designer', 'Front-end Developer'],
+      links: [],
+      image: "/video/pieces.png",
+      video: "",
     },
+    // {
+    //   title: "Lonely Diver",
+    //   href: "https://pieces.io",
+    //   dates: "July 2024 - Present",
+    //   active: false,
+    //   description:
+    //     "The ultimate dive travel planning platform for avid divers! Dive trips covering everything from dining to leisure activities. Building a diving community to connect diving enthusiasts across Taiwan!",
+    //   technologies: [
+    //     "Nuxt.js",
+    //     "Typescript",
+    //     "TailwindCSS"
+    //   ],
+    //   roles: ['UI/UX Designer', 'Front-end Developer'],
+    //   links: [],
+    //   image: "",
+    //   video: "https://cdn.magicui.design/bento-grid.mp4",
+    // },
+    // {
+    //   title: "Cybershop",
+    //   href: "",
+    //   dates: "July 2024 - Present",
+    //   active: false,
+    //   description:
+    //     "Cybershop is a lightweight e-commerce platform that allows users to quickly build their own online stores.",
+    //   technologies: [
+    //     "Nuxt.js",
+    //     "TypeScript",
+    //     "TailwindCSS",
+    //   ],
+    //   roles: ['UI/UX Designer', 'Front-end Developer'],
+    //   links: [],
+    //   image: "",
+    //   video:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    // },
   ],
   hackathons: [
     {
-      title: "CyberShop",
-      dates: "July 2024 - Present",
-      location: "Taipei, Taiwan",
-      description:
-        "CyberShop is a light e-commerce platform that lets anyone start a online business.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [
-        {
-          title: "Official",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://cybershop.tw",
-        },
-      ],
-    },
-    {
-      title: "Teamsync",
+      title: "TeamSync",
       dates: "February 1th - March 3rd, 2024",
       location: "Taipei, Taiwan",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+        "I am responsible for front-end development of this application using the Svelte framework and WebSocket technology to develop a multi-user AI chatroom.",
+      image:'',
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
-          title: "Official",
+          title: "Official Entry",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://teamsync.com.tw/",
         },
       ],
     },
     {
-      title: "FirstNet Public Safety Hackathon",
+      title: "Swise - Virtual Office Space",
       dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
+      location: "Worldwide",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+        "Participated in front-end interface and feature development, as well as maintenance and modification tasks.",
       icon: "public",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-      links: [],
-    },
-    {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "/swise.png",
       links: [
         {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+            title: "Official Entry",
+            icon: <Icons.globe className="h-4 w-4" />,
+            href: "https://swise.jp/",
         },
       ],
     },
     {
-      title: "HackDavis",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
+        title: "DMKTZ",
+        dates: "Nov 2022 - Aug, 2023",
+        location: "Worldwide",
+        description:
+          "Involved in front-end interface and feature development for a digital fashion design platform. Integrated virtual character Clonex from the metaverse and RPM x DMKTZ 3D clothing try-on functionality.",
+        icon: "public",
+        image:
+          "/dmktz.png",
+        links: [
+          {
+              title: "Official Entry",
+              icon: <Icons.globe className="h-4 w-4" />,
+              href: "https://dmktz.io/",
+          },
+          {
+            title: "Instagram",
+            icon: <Icons.globe className="h-4 w-4" />,
+            href: "https://www.instagram.com/dmktz.official/",
+          }
+        ],
+    },
+    {
+        title: "FITzOn - Fit To Earn Game-Fi App",
+        dates: "May 2022 - Nov, 2022",
+        location: "Worldwide",
+        description:
+          "Responsible for front-end development of the official website, covering a wide range including various animations, NFT transaction operations, and the player dashboard for the app.",
+        icon: "public",
+        image:
+          "/fitzon.png",
+        links: [
+          {
+              title: "Official",
+              icon: <Icons.globe className="h-4 w-4" />,
+              href: "https://fitzon.io/",
+          },
+          {
+            title: "App Store",
+            icon: <Icons.globe className="h-4 w-4" />,
+            href: "https://apps.apple.com/us/app/fitzon/id1641147474",
+          },
+          {
+            title: "Google Play",
+            icon: <Icons.globe className="h-4 w-4" />,
+            href: "https://play.google.com/store/apps/details?id=io.fition.fitzon&pli=1",
+          },
+        ],
+    },
+    {
+        title: "Scanatic for Fasion",
+        dates: "May 2022 - Nov, 2022",
+        location: "Worldwide",
+        description:
+          "Participated in developing certain WYSIWYG editing features within a digital fashion design platform, such as syncing body measurement data with 3D models, and editing, drawing, and setting materials on 3D models.",
+        icon: "public",
+        image:
+          "/tg3d.png",
+        links: [
+          {
+              title: "Official",
+              icon: <Icons.globe className="h-4 w-4" />,
+              href: "https://strikingly.tg3ds.com/scanatic-fashion-3d-solutions",
+          },
+        ],
+    },
+    {
+      title: "Instawish - Wishes Story Wall",
+      dates: "February 3rd - 4th, 2018",
+      location: "Taipei, Taiwan",
       description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
+        "Fully responsible for front-end development of the entire site, using Nuxt.js to build the frontend structure and developing CSS / JS user interaction animations. Integrated backend APIs and collaborated with backend engineers to launch the website.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
+        "/instawish.png",
+      links: [
+        {
+          title: "Video",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com/watch?v=DZ3EqGJHCCI",
+        },
+        {
+          title: "Press",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.hospice.org.tw/content/3025"
+        },
+        {
+          title: "Event",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.hospice.org.tw/content/3157"
+        }
+      ],
+    },
+    {
+      title: "GrassJelly TV",
+      dates: "January 20th - 21st, 2018",
+      location: "Taipei, Taiwan",
+      description:
+        "Participated in developing visual animations for the official website, as well as some front-end development.",
+      image:
+        "/grassjelly.jpg",
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
       links: [
         {
-          title: "Devpost",
+          title: "official",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
+          href: "https://www.grassjelly.tv/#1",
+        }
       ],
     },
     {
-      title: "ETH Waterloo",
+        title: "No Party for CaoDong",
+        dates: "August 26th - 27th, 2017",
+        location: "Taipei, Taiwan",
+        description:
+          "Fully responsible for front-end development of the official website, as well as customizing the front-end development of the Shopify store.",
+        image:
+          "/noparty.jpg",
+        mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+        links: [
+          {
+            title: "Official",
+            icon: <Icons.globe className="h-4 w-4" />,
+            href: "https://www.nopartyforcaodong.com/zh-hant",
+          },
+          {
+            title: "Shopify Store",
+            icon: <Icons.globe className="h-4 w-4" />,
+            href: "https://store.nopartyforcaodong.com/",
+          }
+        ],
+    },
+    {
+      title: "LCY Chemical Group",
       dates: "October 13th - 15th, 2017",
-      location: "Waterloo, Ontario",
+      location: "Taipei, Taiwan",
       description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
+        "Participated in front-end development for the LCY Chemical Corp official website redesign.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
+        "/lcy.jpeg",
       links: [
         {
-          title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
+          title: "LCY Chemical",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.lcycic.com/en",
         },
       ],
     },
     {
-      title: "Hack The North",
+      title: "JaFun - Japanese Souvenir Shopping Platform",
       dates: "September 15th - 17th, 2017",
-      location: "Waterloo, Ontario",
+      location: "Taipei, Taiwan",
       description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
+        "Participated in front-end development for an e-commerce platform, integrating payment gateways and developing interfaces and functionalities.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+        "/jafun.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
       links: [
         {
-          title: "Streamer Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/htn2017",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/RTSPClient",
-        },
-      ],
-    },
-    {
-      title: "Hack The 6ix",
-      dates: "August 26th - 27th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
-        },
-        {
-          title: "Site",
+          title: "Official",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
-        },
-      ],
-    },
-    {
-      title: "Stupid Hack Toronto",
-      dates: "July 23rd, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a chrome extension which tracks which facebook profiles you have visited and immediately texts your girlfriend if you visited another girls page.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/stupid-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/nsagirlfriend/nsagirlfriend",
-        },
-      ],
-    },
-    {
-      title: "Global AI Hackathon - Toronto",
-      dates: "June 23rd - 25th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a python library which can be imported to any python game and change difficulty of the game based on real time emotion of player. Uses OpenCV and webcam for facial recognition, and a custom Machine Learning Model trained on a [Kaggle Emotion Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/leaderboard) using [Tensorflow](https://www.tensorflow.org/Tensorflow) and [Keras](https://keras.io/). This project recieved 1st place prize at the Global AI Hackathon - Toronto and was also invited to demo at [NextAI Canada](https://www.nextcanada.com/next-ai).",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/global-ai-hackathon.jpg",
-      win: "1st Place Winner",
-      links: [
-        {
-          title: "Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://syncedreview.com/2017/06/26/global-ai-hackathon-in-toronto/",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/TinySamosas/",
-        },
-      ],
-    },
-    {
-      title: "McGill AI for Social Innovation Hackathon",
-      dates: "June 17th - 18th, 2017",
-      location: "Montreal, Quebec",
-      description:
-        "Developed realtime facial microexpression analyzer using AI",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/ai-for-social-good.jpg",
-      links: [],
-    },
-    {
-      title: "Open Source Circular Economy Days Hackathon",
-      dates: "June 10th, 2017",
-      location: "Toronto, Ontario",
-      description:
-        "Developed a custom admin interface for food waste startup <a href='http://genecis.co/'>Genecis</a> to manage their data and provide analytics.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/open-source-circular-economy-days.jpg",
-      win: "1st Place Winner",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/genecis",
-        },
-      ],
-    },
-    {
-      title: "Make School's Student App Competition 2017",
-      dates: "May 19th - 21st, 2017",
-      location: "International",
-      description: "Improved PocketDoc and submitted to online competition",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/make-school-hackathon.png",
-      win: "Top 10 Finalist | Honourable Mention",
-      links: [
-        {
-          title: "Medium Article",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
-        },
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
-    },
-    {
-      title: "HackMining",
-      dates: "May 12th - 14th, 2017",
-      location: "Toronto, Ontario",
-      description: "Developed neural network to optimize a mining process",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-mining.png",
-      links: [],
-    },
-    {
-      title: "Waterloo Equithon",
-      dates: "May 5th - 7th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed Pocketdoc, an app in which you take a picture of a physical wound, and the app returns common solutions or cures to the injuries or diseases.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/waterloo-equithon.png",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
-    },
-    {
-      title: "SpaceApps Waterloo",
-      dates: "April 28th - 30th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed Earthwatch, a web application which allows users in a plane to virtually see important points of interest about the world below them. They can even choose to fly away from their route and then fly back if they choose. Special thanks to CesiumJS for providing open source world and plane models.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/space-apps.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/earthwatch",
-        },
-      ],
-    },
-    {
-      title: "MHacks 9",
-      dates: "March 24th - 26th, 2017",
-      location: "Ann Arbor, Michigan",
-      description:
-        "Developed Super Graphic Air Traffic, a VR website made to introduce people to the world of air traffic controlling. This project was built completely using THREE.js as well as a node backend server.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/mhacks-9.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/threejs-planes",
-        },
-      ],
-    },
-    {
-      title: "StartHacks I",
-      dates: "March 4th - 5th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed at StartHacks 2017, Recipic is a mobile app which allows you to take pictures of ingredients around your house, and it will recognize those ingredients using ClarifAI image recognition API and return possible recipes to make. Recipic recieved 1st place at the hackathon for best pitch and hack.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/starthacks.png",
-      win: "1st Place Winner",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-ionic",
-        },
-        {
-          title: "Source (Server)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/recipic-rails",
-        },
-      ],
-    },
-    {
-      title: "QHacks II",
-      dates: "February 3rd - 5th, 2017",
-      location: "Kingston, Ontario",
-      description:
-        "Developed a mobile game which enables city-wide manhunt with random lobbies",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/qhacks.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Source (Mobile)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/human-huntr-react-native",
-        },
-        {
-          title: "Source (API)",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/mattBlackDesign/human-huntr-rails",
-        },
-      ],
-    },
-    {
-      title: "Terrible Hacks V",
-      dates: "November 26th, 2016",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mock of Windows 11 with interesting notifications and functionality",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/terrible-hacks-v.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/TerribleHacks2016-Windows11",
-        },
-      ],
-    },
-    {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
-      location: "Kingston, Ontario",
-      description:
-        "Developed an internal widget for uploading assignments using Waterloo's portal app",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/UWPortalSDK/crowmark",
+          href: "https://www.jafun.com.tw/",
         },
       ],
     },

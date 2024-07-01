@@ -113,7 +113,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="projects">
+      <section id="side-projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -124,10 +124,8 @@ export default function Page() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   This is where my passion lies
                 </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                <p className="text-muted-foreground md:text-base/relaxed">
+                  由生活中的經驗作為靈感，發想解決問題的方法，靠自己的專業技能，實踐自己的想法，將它們變成現實，是我一直以來想做的事。
                 </p>
               </div>
             </div>
@@ -147,6 +145,7 @@ export default function Page() {
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
+                  roles={project.roles}
                   links={project.links}
                 />
               </BlurFade>
@@ -154,7 +153,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="Projects">
+      <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -166,8 +165,7 @@ export default function Page() {
                   Projects I participated in
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
-                  作為前端開發者的時期當中，我負責與參與製作{" "}
-                  {DATA.hackathons.length}+ 個專案。這些專案涵蓋了各種不同的領域，從形象網站、電子商務網站到應用程式，都有涉及。
+                  作為前端開發者的時期當中，我負責與參與製作 {DATA.hackathons.length}+ 個專案。這些專案涵蓋了各種不同的領域，從形象網站、電子商務網站到應用程式，都有涉及。
                 </p>
               </div>
             </div>
