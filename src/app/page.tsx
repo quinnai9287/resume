@@ -125,7 +125,7 @@ export default function Page() {
                   This is where my passion lies
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
-                  Drawing inspiration from everyday experiences to come up with problem-solving methods, using my professional skills to turn these ideas into reality, is something I've always wanted to do.
+                  Drawing inspiration from everyday experiences to come up with problem-solving methods, using my professional skills to turn these ideas into reality, is something I&#39;ve always wanted to do.
                 </p>
               </div>
             </div>
