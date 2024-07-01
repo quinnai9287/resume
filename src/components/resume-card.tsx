@@ -1,9 +1,12 @@
+"use client"
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { usePathname } from 'next/navigation'
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -26,12 +29,16 @@ export const ResumeCard = ({
   period,
   description,
 }: ResumeCardProps) => {
+
+  const pathname = usePathname ();
+  const assetsPrefix = pathname.includes('my-portfolio') ? '/my-portfolio' : '';
+
   return (
     <Card className="flex">
       <div className="flex-none">
         <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
           <AvatarImage
-            src={logoUrl}
+            src={assetsPrefix+logoUrl}
             alt={altText}
             className="object-contain"
           />

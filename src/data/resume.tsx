@@ -24,7 +24,7 @@ export const DATA = {
     tel: "+886912959287",
     social: {
       GitHub: {
-        url: "https://github.com/quinnai9287",
+        url: "https://github.com/quinnai9287/my-portfolio",
         icon: Icons.github,
       },
       LinkedIn: {
