@@ -28,7 +28,7 @@ export function HackathonCard({
 }: Props) {
 
   const pathname = usePathname ();
-  const assetsPrefix = pathname.includes('my-portfolio') ? '/my-portfolio' : '';
+  const assetsPrefix = pathname.includes('resume') ? '/resume' : '';
 
   return (
     <li className="relative ml-10 py-4">

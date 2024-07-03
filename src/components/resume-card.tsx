@@ -31,7 +31,7 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
 
   const pathname = usePathname ();
-  const assetsPrefix = pathname.includes('my-portfolio') ? '/my-portfolio' : '';
+  const assetsPrefix = pathname.includes('resume') ? '/resume' : '';
 
   return (
     <Card className="flex">
@@ -66,14 +66,14 @@ export const ResumeCard = ({
               <ol className="list-disc list-outside pl-5 mb-5">
                 {description?.map((item, index) => (
                   <li key={index} >
-                    <Markdown className="mb-2 prose text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+                    <Markdown className="mb-2 prose text-pretty font-sans text-xs md:text-sm text-muted-foreground dark:prose-invert">
                       {item}
                     </Markdown>
                   </li>
                 ))}
               </ol>
             ) : description && description[0] ? (
-              <Markdown className="mb-3 prose text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+              <Markdown className="mb-3 prose text-pretty font-sans text-xs md:text-sm text-muted-foreground dark:prose-invert">
                 {description[0]}
               </Markdown>
             ) : (

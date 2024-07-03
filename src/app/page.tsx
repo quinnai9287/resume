@@ -6,8 +6,8 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import Link from "next/link";
 import Markdown from "react-markdown";
+import Image from "next/image";
 
 
 const BLUR_FADE_DELAY = 0.04;
@@ -32,6 +32,7 @@ export default function Page() {
                 text={DATA.description}
               />
             </div>
+
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
@@ -39,6 +40,36 @@ export default function Page() {
               </Avatar>
             </BlurFade>
           </div>
+          {/* <BlurFade delay={BLUR_FADE_DELAY}>
+              <div className="flex w-full justify-between">
+                
+              <Image
+                src="/cat/03.svg"
+                alt={'cat'}
+                width={120}
+                height={90}
+              />
+              <Image
+                src="/cat/02.svg"
+                alt={'cat'}
+                width={140}
+                height={90}
+              />
+              
+              <Image
+                src="/cat/01.svg"
+                alt={'cat'}
+                width={100}
+                height={90}
+              />
+              <Image
+                src="/cat/04.svg"
+                alt={'cat'}
+                width={95}
+                height={90}
+              />
+              </div>
+            </BlurFade> */}
         </div>
       </section>
       <section id="about">
@@ -99,7 +130,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills">
+      {/* <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
@@ -112,7 +143,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="side-projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>

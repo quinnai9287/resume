@@ -24,7 +24,7 @@ export const DATA = {
     tel: "+886912959287",
     social: {
       GitHub: {
-        url: "https://github.com/quinnai9287/my-portfolio",
+        url: "https://github.com/quinnai9287/resume",
         icon: Icons.github,
       },
       LinkedIn: {
@@ -195,7 +195,7 @@ export const DATA = {
   hackathons: [
     {
       title: "TeamSync",
-      dates: "February 1th - March 3rd, 2024",
+      dates: "Feb - Mar 2024",
       location: "Taipei, Taiwan",
       description:
         "I am responsible for front-end development of this application using the Svelte framework and WebSocket technology to develop a multi-user AI chatroom.",
@@ -211,7 +211,7 @@ export const DATA = {
     },
     {
       title: "Swise - Virtual Office Space",
-      dates: "March 23rd - 24th, 2018",
+      dates: "March 23rd - 24th 2018",
       location: "Worldwide",
       description:
         "Participated in front-end interface and feature development, as well as maintenance and modification tasks.",
@@ -228,7 +228,7 @@ export const DATA = {
     },
     {
         title: "DMKTZ",
-        dates: "Nov 2022 - Aug, 2023",
+        dates: "Nov 2022 - Aug 2023",
         location: "Worldwide",
         description:
           "Involved in front-end interface and feature development for a digital fashion design platform. Integrated virtual character Clonex from the metaverse and RPM x DMKTZ 3D clothing try-on functionality.",
@@ -250,7 +250,7 @@ export const DATA = {
     },
     {
         title: "FITzOn - Fit To Earn Game-Fi App",
-        dates: "May 2022 - Nov, 2022",
+        dates: "May 2022 - Nov 2022",
         location: "Worldwide",
         description:
           "Responsible for front-end development of the official website, covering a wide range including various animations, NFT transaction operations, and the player dashboard for the app.",
@@ -277,7 +277,7 @@ export const DATA = {
     },
     {
         title: "Scanatic for Fasion",
-        dates: "May 2022 - Nov, 2022",
+        dates: "May 2022 - Nov 2022",
         location: "Worldwide",
         description:
           "Participated in developing certain WYSIWYG editing features within a digital fashion design platform, such as syncing body measurement data with 3D models, and editing, drawing, and setting materials on 3D models.",
@@ -294,7 +294,7 @@ export const DATA = {
     },
     {
       title: "Instawish - Wishes Story Wall",
-      dates: "February 3rd - 4th, 2018",
+      dates: "Jul - Aug 2021",
       location: "Taipei, Taiwan",
       description:
         "Fully responsible for front-end development of the entire site, using Nuxt.js to build the frontend structure and developing CSS / JS user interaction animations. Integrated backend APIs and collaborated with backend engineers to launch the website.",
@@ -320,7 +320,7 @@ export const DATA = {
     },
     {
       title: "GrassJelly TV",
-      dates: "January 20th - 21st, 2018",
+      dates: "Dec 2021",
       location: "Taipei, Taiwan",
       description:
         "Participated in developing visual animations for the official website, as well as some front-end development.",
@@ -338,7 +338,7 @@ export const DATA = {
     },
     {
         title: "No Party for CaoDong",
-        dates: "August 26th - 27th, 2017",
+        dates: "May - Dec 2021",
         location: "Taipei, Taiwan",
         description:
           "Fully responsible for front-end development of the official website, as well as customizing the front-end development of the Shopify store.",
@@ -360,7 +360,7 @@ export const DATA = {
     },
     {
       title: "LCY Chemical Group",
-      dates: "October 13th - 15th, 2017",
+      dates: "Jul 2020 - Mar 2021",
       location: "Taipei, Taiwan",
       description:
         "Participated in front-end development for the LCY Chemical Corp official website redesign.",
@@ -376,7 +376,7 @@ export const DATA = {
     },
     {
       title: "JaFun - Japanese Souvenir Shopping Platform",
-      dates: "September 15th - 17th, 2017",
+      dates: "Jan 2021",
       location: "Taipei, Taiwan",
       description:
         "Participated in front-end development for an e-commerce platform, integrating payment gateways and developing interfaces and functionalities.",

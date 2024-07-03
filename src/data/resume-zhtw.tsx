@@ -7,7 +7,7 @@ export const DATA = {
   location: "台北, 台灣",
   locationLink: "https://www.google.com/maps/place/taipei",
   description:
-    "現役前端工程師，前平面/UI設計師。我喜於將設計美學融入使用者友好的界面，致力於創建令人愉悅且功能強大的網站和應用程式。我熱衷於探索新技術，並不斷提升自己在技術和設計領域的能力。",
+    "現役前端工程師，前平面/UI設計師。喜歡把前端視覺開發做得美輪美奐，並持續精進自己的技術。除此以外，也持續培養我的美感、全局思維、外語能力等軟實力。我相信，優雅的設計和精湛的技術可以共同創造出色的數位體驗。",
   summary:
     "2023 年九月辭去上一份正職工作工作後，一邊持續[接案](#projects)，一邊增強自己的軟實力，持續培養美感、學習服裝設計。2024 年後開始重點精進英文能力，仍一邊接案並開啟海外數位遊牧行程，在全外語環境獨自旅行。目前持續接案、[開發自己的 SaaS 服務](#side-projects)，並持續學習新技術中。\n\n 非常喜歡開發很美、富有創意互動設計的設計稿，如果你也是追求精緻視覺的設計師，請不吝與我合作，謝謝！🥰",
   avatarUrl: "/me2.jpg",
@@ -24,7 +24,7 @@ export const DATA = {
     tel: "+886912959287",
     social: {
       GitHub: {
-        url: "https://github.com/quinnai9287/my-portfolio",
+        url: "https://github.com/quinnai9287/resume",
         icon: Icons.github,
       },
       LinkedIn: {
@@ -194,7 +194,7 @@ export const DATA = {
   hackathons: [
     {
       title: "TeamSync",
-      dates: "February 1th - March 3rd, 2024",
+      dates: "Feb - Mar 2024",
       location: "Taipei, Taiwan",
       description:
         "負責此應用軟體前端開發，以 Svelte 框架以及 WebSocket 開發多人 AI 聊天室。",
@@ -210,7 +210,7 @@ export const DATA = {
     },
     {
       title: "Swise - 解決遠距工作課題的虛擬辦公空間",
-      dates: "March 23rd - 24th, 2018",
+      dates: "March 23rd - 24th 2018",
       location: "Worldwide",
       description:
         "參與部分前端介面、功能開發，以及維護、修改工作。",
@@ -227,7 +227,7 @@ export const DATA = {
     },
     {
         title: "DMKTZ",
-        dates: "Nov 2022 - Aug, 2023",
+        dates: "Nov 2022 - Aug 2023",
         location: "Worldwide",
         description:
           "參與數位服裝設計平台介面、功能開發。串接元宇宙虛擬角色 Clonex, RPM x DMKTZ 3D 服裝試穿功能。",
@@ -249,7 +249,7 @@ export const DATA = {
     },
     {
         title: "FITzOn - Fit To Earn Game-Fi App",
-        dates: "May 2022 - Nov, 2022",
+        dates: "May 2022 - Nov 2022",
         location: "Worldwide",
         description:
           "負責官方網站前台開發，涵蓋全部範圍。包含各式動畫、NFT 交易相關操作、APP 玩家 Dashboard。",
@@ -276,7 +276,7 @@ export const DATA = {
     },
     {
         title: "Scanatic for Fasion",
-        dates: "May 2022 - Nov, 2022",
+        dates: "May 2022 - Nov 2022",
         location: "Worldwide",
         description:
           "參與開發數位服裝設計平台當中，某幾項所見及所得編輯功能(e.g.身體量測數據與 3D 模型同步、3D 模型的編輯、繪製、材質設定等)。",
@@ -293,7 +293,7 @@ export const DATA = {
     },
     {
       title: "Instawish 限時許願牆",
-      dates: "February 3rd - 4th, 2018",
+      dates: "Jul - Aug 2021",
       location: "台北, 台灣",
       description:
         "全權負責全站前端開發，使用 Nuxt.js 建立前台結構，開發 CSS / JS 使用者互動動畫。串接後端 API 並與後端工程師合作，完成網站上線。",
@@ -319,7 +319,7 @@ export const DATA = {
     },
     {
       title: "仙草影像",
-      dates: "January 20th - 21st, 2018",
+      dates: "Dec 2021",
       location: "台北, 台灣",
       description:
         "參與開發官網視覺動畫，以及部分前端開發。",
@@ -337,7 +337,7 @@ export const DATA = {
     },
     {
         title: "草東沒有派對",
-        dates: "August 26th - 27th, 2017",
+        dates: "May - Dec 2021",
         location: "台北, 台灣",
         description:
           "全權負責官方網站前端開發，以及 Shopify 商店客製化前端開發。",
@@ -359,7 +359,7 @@ export const DATA = {
     },
     {
       title: "李長榮化工集團",
-      dates: "October 13th - 15th, 2017",
+      dates: "Jul 2020 - Mar 2021",
       location: "台北, 台灣",
       description:
         "負責前端視覺切版。",
@@ -375,7 +375,7 @@ export const DATA = {
     },
     {
       title: "JaFun - 日本伴手禮代購平台",
-      dates: "September 15th - 17th, 2017",
+      dates: "Jan 2021",
       location: "台北, 台灣",
       description:
         "參與電子商務平台前端開發，串接金流以及介面、功能開發。",

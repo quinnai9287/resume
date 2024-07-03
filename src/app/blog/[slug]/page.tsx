@@ -15,8 +15,6 @@ export async function generateStaticParams() {
     slug: filename.replace(/\.mdx$/, ''),
   }));
 
-  console.log('R', r);
-
   return filenames.map((filename) => ({
     slug: filename.replace(/\.mdx$/, ''),
   }));

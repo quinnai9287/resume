@@ -8,10 +8,8 @@ export function LangToggle() {
   
   const pathname = usePathname ();
   const isTW = pathname.includes('zh-tw')
-  const linkPrefix = pathname.includes('my-portfolio') ? '/my-portfolio' : '';
+  const linkPrefix = pathname.includes('resume') ? '/resume' : '';
   const pathTo = isTW ? `${linkPrefix}/` : `${linkPrefix}/zh-tw`;
-
-  console.log('linkPrefix', linkPrefix);
 
   return (
     <Link
