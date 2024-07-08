@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Front-end developer. Formerly a visual/UI designer. I'm passionate about creating beautiful and user-friendly interfaces.",
   summary:
-    "After leaving my full-time job in September 2023, [I continued freelancing](#projects) while enhancing my soft skills, learning fashion design, and improving my English. Since 2024, I've embraced the digital nomad lifestyle, traveling solo in English-speaking countries. \n\n Currently, I’m freelancing, developing [my own SaaS service](#side-projects), and learning new technologies. I love creating beautiful, interactive designs. If you’re a designer who values exquisite visuals, let’s collaborate! Thank you! 🥰",
+    "I have been working as a front-end engineer for about 3-5 years, with a particular passion for CSS and JavaScript animations. \n\n Throughout my career, I have been involved in developing a variety of websites, ranging from corporate sites and e-commerce platforms to SaaS applications. My primary expertise lies in [using Vue 3, Nuxt.js, TypeScript, and TailwindCSS]().  Additionally, I have a personal interest in Three.js and am actively exploring its capabilities. \n\n After leaving my full-time job in September 2023, [I continued freelancing](#projects) while enhancing my soft skills, learning fashion design, and improving my English. Since 2024, I've embraced the digital nomad lifestyle, traveling solo in English-speaking countries. \n\n Currently, I’m freelancing, developing [my own SaaS service](#side-projects), and learning new technologies. I love creating beautiful, interactive designs. If you’re a designer who values exquisite visuals, let’s collaborate! Thank you! 🥰",
   avatarUrl: "/me2.jpg",
   skills: [
     "Vue.js",
