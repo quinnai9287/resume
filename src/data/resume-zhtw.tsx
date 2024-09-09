@@ -236,6 +236,11 @@ export const DATA = {
           "/dmktz.png",
         links: [
           {
+            title: "Video",
+            icon: <Icons.youtube className="h-4 w-4" />,
+            href: "https://www.youtube.com/watch?v=lQdSmOR7UHs",
+          },
+          {
               title: "官方入口",
               icon: <Icons.globe className="h-4 w-4" />,
               href: "https://dmktz.io/",

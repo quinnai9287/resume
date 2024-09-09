@@ -236,9 +236,14 @@ export const DATA = {
           "/dmktz.png",
         links: [
           {
-              title: "Official Entry",
-              icon: <Icons.globe className="h-4 w-4" />,
-              href: "https://dmktz.io/",
+            title: "Video",
+            icon: <Icons.youtube className="h-4 w-4" />,
+            href: "https://www.youtube.com/watch?v=lQdSmOR7UHs",
+          },
+          {
+            title: "Official Entry",
+            icon: <Icons.globe className="h-4 w-4" />,
+            href: "https://dmktz.io/",
           },
           {
             title: "Instagram",
