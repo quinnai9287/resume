@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Front-end developer. Formerly a visual/UI designer. I'm passionate about creating beautiful and user-friendly interfaces.",
   summary:
-    "3y+ Front-end Developer, with a particular passion for web visuals. \n 1y+ Graphic, UI Designer, with a particular passion for web engineering. \nMy primary expertise lies in Vue 3, Nuxt.js, React, Next.js, TypeScript, and TailwindCSS. Additionally, I have a personal interest in Three.js and WebGL. \n\n In addition to developing front-end application functionality, I have a keen eye for visual details in front-end web development and place a high emphasis on the visual presentation of web pages. \n\nI am currently seeking a position as a Front-end Developer, where I can continue to grow my skills and contribute to a team that values creativity and innovation.",
+    "I have been working as a front-end engineer for about 3-5 years, with a particular passion for CSS and JavaScript animations. \n\n Throughout my career, I have been involved in developing a variety of websites, ranging from corporate sites and e-commerce platforms to SaaS applications. My primary expertise lies in [using Vue 3, Nuxt.js, TypeScript, and TailwindCSS]().  Additionally, I have a personal interest in Three.js and am actively exploring its capabilities. \n\n After leaving my full-time job in September 2023, [I continued freelancing](#projects) while enhancing my soft skills, learning fashion design, and improving my English. Since 2024, I've embraced the digital nomad lifestyle, traveling solo in English-speaking countries. \n\n Currently, I’m freelancing, developing [my own SaaS service](#side-projects), and learning new technologies. I love creating beautiful, interactive designs. If you’re a designer who values exquisite visuals, let’s collaborate! Thank you! 🥰",
   avatarUrl: "/me2.jpg",
   skills: [
     "Vue.js",
@@ -46,10 +46,11 @@ export const DATA = {
       end: "Present",
       description:
       [
-        "[MAAC 漸強實驗室](https://maac.cresclab.com/) - Contributed to the front-end development of e-commerce platform extensions.",
-        "[數辰 AI 創藝科技](https://shuchenai.wordpress.com/) - Contributed to the AI multi-person chat room [TeamSync](https://teamsync.com.tw/).",
-        "[Alion Tech](https://alion.tw/) - Developed parts of the front-end interface and features for [Swise virtual office space](https://swise.tw/).",
-        "[Alion Tech](https://alion.tw/) - Participated in front-end development for an ERP system.",
+        "Developing my [personal service website and side projects](#side-projects).",
+        "Contributed to the front-end development of e-commerce platform extensions. work w/ [MAAC 漸強實驗室](https://maac.cresclab.com/).",
+        "Took over front-end development for [TeamSync](https://teamsync.com.tw/), a multi-user AI chatroom. work w/ [數辰 AI 創藝科技](https://shuchenai.wordpress.com/).",
+        "Developed parts of the front-end interface and features for [Swise virtual office space](https://swise.tw/). work w/ [Alion Tech](https://alion.tw/).",
+        "Participated in front-end development for an ERP system. work w/ [Alion Tech](https://alion.tw/).",
       ]
     },
     {
