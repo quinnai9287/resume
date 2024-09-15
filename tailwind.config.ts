@@ -11,6 +11,10 @@ const config = {
   ],
   prefix: "",
   theme: {
+    listStyleType: {
+      circle: "circle",
+      disc: "disc",
+    },
     container: {
       center: true,
       padding: "2rem",

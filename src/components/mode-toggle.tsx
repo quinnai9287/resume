@@ -1,10 +1,13 @@
 "use client";
 
+import React, { forwardRef } from 'react';
 import { Button } from "@/components/ui/button";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
 
-export function ModeToggle() {
+// use forwaredRef to pass ref to the child component
+export const ModeToggle = forwardRef<HTMLAnchorElement>((props, ref) => {
+  ModeToggle.displayName = 'ModeToggle';
   const { theme, setTheme } = useTheme();
 
   return (
@@ -19,4 +22,4 @@ export function ModeToggle() {
       <MoonIcon className="hidden h-[1.2rem] w-[1.2rem] text-neutral-800 dark:block dark:text-neutral-200" />
     </Button>
   );
-}
+});

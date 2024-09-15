@@ -7,10 +7,11 @@ import Link from "next/link";
 
 interface Props {
   title: string;
-  description: string;
+  description: readonly string[];
   dates: string;
-  location: string;
+  location?: string;
   image?: string;
+  credit?: string;
   links?: readonly {
     icon: React.ReactNode;
     title: string;
@@ -22,6 +23,7 @@ export function HackathonCard({
   title,
   description,
   dates,
+  credit,
   location,
   image,
   links,
@@ -43,19 +45,28 @@ export function HackathonCard({
           <time className="text-xs text-muted-foreground">{dates}</time>
         )}
         <h3 className="font-semibold leading-none">{title}</h3>
-        {location && (
+        {credit && (
+          <p className="text-sm text-muted-foreground mb-2">{credit}</p>
+        )}
+        {/* {location && (
           <p className="text-sm text-muted-foreground">{location}</p>
-        )}
-        {description && (
-          <span className="prose dark:prose-invert text-sm text-muted-foreground">
-            {description}
-          </span>
-        )}
+        )} */}
+        {
+          description && description.length > 0 && (
+            <ul className="list-disc pl-6 mb-2">
+              {description?.map((desc, idx) => (
+                <li key={idx} className="text-sm text-muted-foreground">
+                  {desc}
+                </li>
+              ))}
+            </ul>
+          )
+        }
       </div>
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
           {links?.map((link, idx) => (
-            <Link href={link.href} key={idx}>
+            <Link href={link.href} key={idx} target="_blank">
               <Badge key={idx} title={link.title} className="flex gap-2">
                 {link.icon}
                 {link.title}

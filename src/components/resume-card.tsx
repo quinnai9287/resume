@@ -1,5 +1,6 @@
 "use client"
 
+import { ResumeProjectCard } from "@/components/resume-project-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -7,6 +8,20 @@ import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { usePathname } from 'next/navigation'
+
+interface ResumeCardProjectProps {
+  title: string;
+  description: readonly string[];
+  dates: string;
+  location: string;
+  image?: string;
+  poster?: string;
+  links?: readonly {
+    icon: React.ReactNode;
+    title: string;
+    href: string;
+  }[];
+}
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -17,6 +32,7 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   description?: readonly string[];
+  projects?: readonly ResumeCardProjectProps[];
 }
 
 export const ResumeCard = ({
@@ -28,10 +44,13 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  projects = [],
 }: ResumeCardProps) => {
 
   const pathname = usePathname ();
+  console.log('pathname', pathname);
   const assetsPrefix = pathname.includes('resume') ? '/resume' : '';
+  console.log('assetsPrefix', assetsPrefix);
 
   return (
     <Card className="flex">
@@ -54,7 +73,7 @@ export const ResumeCard = ({
                 <ChevronRightIcon className="size-4 translate-x-0 transform opacity-0 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:opacity-100" />
               </h3>
             </Link>
-            <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+            <div className="text-xs tabular-nums text-muted-foreground text-right">
               {period}
             </div>
           </div>
@@ -80,13 +99,28 @@ export const ResumeCard = ({
               <p>無可顯示的內容。</p>
             )
           }
+
+          <div className="grid md:grid-cols-2 gap-4 mb-6">
+          {projects.map((project: ResumeCardProjectProps, id) => (
+            <ResumeProjectCard
+              key={project.title+id}
+              title={project.title}
+              description={project.description}
+              location={project.location}
+              dates={project.dates}
+              image={project.image}
+              links={project.links}
+              poster={project.poster}
+            />
+          ))}
+          </div>
           
           {badges && (
             <span className="inline-flex gap-1 flex-wrap mb-4">
               {badges.map((badge, index) => (
                 <Badge
                   variant="secondary"
-                  className="align-middle text-xs whitespace-nowrap"
+                  className="align-middle text-xs whitespace-nowrap border border-gray-300 dark:border-gray-700"
                   key={index}
                 >
                   {badge}

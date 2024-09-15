@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: `Resume | ${DATA.name}`,
     description: DATA.description,
     url: DATA.url,
     siteName: `${DATA.name}`,
@@ -37,10 +37,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
   },
   verification: {
     google: "",
