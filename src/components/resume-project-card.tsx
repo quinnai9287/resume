@@ -33,6 +33,7 @@ export function ResumeProjectCard({
   const pathname = usePathname ();
   const assetsPrefix = pathname.includes('resume') ? '/resume' : '';
 
+
   return (
     <div className="relative p-3 border border-gray-300 dark:border-gray-500  rounded-lg">
       <Image src={assetsPrefix+poster} alt={title} width={300} height={200} className="object-top rounded mb-2 object-cover w-full md:h-[150px]" />

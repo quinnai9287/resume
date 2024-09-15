@@ -48,9 +48,7 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
 
   const pathname = usePathname ();
-  console.log('pathname', pathname);
   const assetsPrefix = pathname.includes('resume') ? '/resume' : '';
-  console.log('assetsPrefix', assetsPrefix);
 
   return (
     <Card className="flex">

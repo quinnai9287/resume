@@ -116,7 +116,7 @@ export const DATA = {
             {
               title: "Reveal Intro",
               icon: <Icons.youtube className="h-4 w-4" />,
-              href: "/video/reveal_intro.mp4",
+              href: "/resume/video/reveal_intro.mp4",
             },
             {
               title: "App Store",
