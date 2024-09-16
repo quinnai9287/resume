@@ -47,8 +47,8 @@ export const DATA = {
       description:
       [
         `▦ June ~ August 2024 ▦  
-        [Project] Crescendo Lab x SHOPLINE - LINE Membership Card Platform & Shopline Merchant Extension Plugin.  
-        Collaborated as an outsourced team with Gradual Lab, contributing to the front-end development of this product.`,
+        [Project] SHOPLINE x LINE Membership Card Platform & Shopline Merchant Extension Plugin.  
+        Collaborated as an outsourced team with Crescendo Lab, contributing to the front-end development of this product.`,
         `▦ March ~ April 2024 ▦  
         [Project] TeamSync - Multi-user AI Chatroom.  
         Developed the front-end of this application using the Svelte framework and WebSocket technology.`,
